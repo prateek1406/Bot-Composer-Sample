@@ -1,0 +1,100 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://cdn3.iconfinder.com/data/icons/healthcare-37/64/bot-512.png",
+              "altText": "Icon",
+              "horizontalAlignment": "left",
+              "style": "person",
+              "width": "100px",
+              "height": "100px"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Hi!! I am Lara. How can I help you today??"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Book an appointment",
+                  "data": "Book an appointment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "View Previous Appointments",
+                  "data": "View Previous Appointments"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Book an appointment",
+                  "data": "Book an appointment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "View Previous Appointments",
+                  "data": "View Previous Appointments"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
